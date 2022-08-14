@@ -17,9 +17,12 @@ img{
 img:hover{
   filter:none;
 }
+.main-content{
+  position: relative;
+  z-index: 1;
+}
 .section-profile{
   z-index: 1;
-  position: relative;
   margin: auto;
   margin-top: 100px;
   margin-bottom: 50px;
@@ -33,20 +36,19 @@ img:hover{
 .fonts{
   font-size: 20px;
 }
-.section-work, .section-education, .section-skills, .section-contact{
+.section-education, .section-skills, .section-contact{
   z-index: 2;
   position: relative;
   background: #2962FF;
   padding-bottom:130px;
 }
+svg{
+  z-index: 3;
 .section-work{
   background: #2962FF;
   margin-top:45px;
   padding-left:20px;
   padding-right:20px;
-}
-.section-work a{
-  color:white;
 }
 .section-education{
   background: #3498db;
