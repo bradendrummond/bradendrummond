@@ -44,11 +44,6 @@ img:hover{
 }
 svg{
   z-index: 3;
-.section-work{
-  background: #2962FF;
-  margin-top:45px;
-  padding-left:20px;
-  padding-right:20px;
 }
 .section-education{
   background: #3498db;
