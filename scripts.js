@@ -6,8 +6,8 @@ $(document).ready(function(){
 });
 
 function createChart(){
-  var skillLabels = ["CSS/HTML", "Javascript", "Office", "Photoshop"];
-  var skillProfs = [90, 70, 85, 80, 50];
+  var skillLabels = ["CSS/HTML", "Javascript", "Office", "Photoshop", "Video Editing"];
+  var skillProfs = [90, 70, 85, 80, 85, 50];
   var ctx = document.getElementById("myChart").getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'horizontalBar',
