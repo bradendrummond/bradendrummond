@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cask.scotch.io/bootstrap-4.0.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+<body>
+<main>
+
+
+<link href='https://fonts.googleapis.com/css?family=Pacifico|Bungee+Inline|Lobster' rel='stylesheet' type='text/css'>
+<img src="https://freeimages.red/static2/preview2/photo-laptop-work-coffee-12938.jpg" style="position:fixed; z-index:-1;top:0;width:100%;height:100%;filter:none;"/>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <div class="navbar-brand" href="#">
+        <div class="navbar-brand-pic">BD</div>
+      </div>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#" onclick="scrollToTop()">Profile</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="main-content"> 
+  <section class="section-profile">
+    <div class="profile-container"> 
+      <div class="profile-img col-sm-12 col-md-12 col-lg-4">
+        <img src="https://github.com/Alexdrummond411/random/blob/main/Me.jpg?raw=true" class="img-circle" />
+      </div> 
+      <div class="profile-desc col-sm-12  col-md-12 col-lg-8 col-lg-4-offset">
+        <div class="my-name">
+          <br/>
+          <h4 id="profile">Hi, I'm</h4>
+          <div class="cursive"> 
+          <h1 class="noselect">Braden Drummond</h1>
+            <hr class="hr-style-heading"/>
+          </div>
+        </div> 
+ 
+        <h5 class="fonts">Objective <i class="fa-solid fa-check"></i></br> To Accept the Position in any field that’s required and provides challenges, opportunities & experience.</h5>
+        <br/>
+             <div class="pdf">
+        <a href="https://pdfhost.io/v/S5xe7KemW_Curriculum_Vitae_3" target="_blank"><i class="fa-solid fa-file-pdf fa-2xl"></i></a>
+       <p class="click">Click for detailed CV</p>
+    </div>
+        <h2 class="hidden">Profile</h2>
+      </div>
+    </div>
+  </section>
+  <section class="section-education">
+    <svg id="svg2" style="width:100%;margin-top:-100px;margin-bottom:17px;" xmlns="http://www.w3.org/2000/svg" version="1.1" width="300" height="100" viewBox="0 0 300 100" preserveAspectRatio="none">
+<path d="M 0 103 q 150 -200 300 0" stroke="#3498db" stroke-width="5" fill="#3498db" />
+</svg>
+    <h2 id="education" class="section-title">Education</h2>
+    <section class="timeline">
+      <ul>
+        <li>
+          <div> 
+            <time>2007</time><span class="edu-desc">Kinder Garten - Children’s House</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>2010</time><span class="edu-desc">Primary School - TK Pelangi Jimbaran</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>2012</time><span class="edu-desc">Primary School - Taman Rama Jimbaran</span>
+          </div>
+        </li>
+                <li>
+          <div>
+            <time>2014</time><span class="edu-desc">Primary School - Heddon Bush School</span>
+          </div>
+        </li>
+                <li>
+          <div>
+            <time>2016</time><span class="edu-desc">Middle, High School - Bintang Mandiri School</span>
+          </div>
+        </li>
+              <li>
+          <div>
+            <time>2022</time><span class="edu-desc">Now - Fresh Graduate</span>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </section>
+<section class="section-skills">
+  <svg id="svg3" style="margin-top:-100px;width:100%;margin-bottom:16px;" xmlns="http://www.w3.org/2000/svg" version="1.1" width="300" height="100" viewBox="0 0 300 100" style="border:1px solid black;" preserveAspectRatio="none">
+<path d="M 100 99 L300 1 l299 149" stroke="#34a8eb" stroke-width="2" fill="#34a8eb" /> 
+<path d="M 0 100 L0 1 l300 100" stroke="#2962FF" stroke-width="2" fill="#2962FF" /> 
+</svg>
+    <h2 id="skills" class="section-title">Skills</h2>
+   <canvas id="myChart" width="400" height="160"></canvas>
+    <br/><br/>
+  </section>
+<section class="section-contact">
+  <svg id="svg4" style="margin-top:0px;width:100%;" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="50" viewBox="0 0 80 50" >
+<circle cx="40" cy="0" r="40" stroke="#2962FF" stroke-width="3" fill="#2962FF" />
+</svg>
+    <h2 id="contact" class="section-title">Contact</h2>
+    <div class="contact-icons-container">
+ <div class="sites">
+  <ul class="tiles">
+    <li class="names">
+    <a href="https://wa.me/6282144627023?text=Click%20to%20start%20a%20conversation%20with%20Braden!" target="_blank" id="profile_link" class="btn"><i class="fa-brands fa-whatsapp"></i> <span>WhatsApp</span></a>
+    </li>
+        <li class="names">
+    <a target="_blank" id="profile_link" class="btn"><i class="fa-solid fa-envelope"></i> <span>Alexdrummond411@gmail.com</span></a>
+    </li>
+         <li class="names">
+    <a target="_blank" id="profile_link" class="btn"><i class="fa-solid fa-phone"></i> <span>082144627023</span></a>
+    </li>
+    
+    <li class="names">
+    <a href="https://www.instagram.com/alex.drummond2/" target="_blank" id="profile-link" class="btn"><i class="fa-brands fa-instagram"></i> <span>Instagram</span></a>
+    </li>
+   </ul>
+    </div>
+    </div>
+  <br/>
+  <p>Copyright &copy; Braden Drummond. All Rights Reserved.</p>
+  <br/>
+   </section>
+</div>
+</main>
+
+<script src="https://kit.fontawesome.com/b0cbd0eee3.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>
