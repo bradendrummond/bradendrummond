@@ -1,4 +1,6 @@
 ### Hi there 👋
+There is nothing to see here yet, 
+Jump back to my CV by clicking -> https://bradendrummond.github.io/bradendrummond/
 
 <!--
 **bradendrummond/bradendrummond** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
